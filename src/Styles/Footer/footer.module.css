@@ -1,0 +1,9 @@
+.footerCont {
+  background-color: #051422;
+  color: #fff;
+  width: 100vw;
+  position: absolute;
+  font-size: 0.8rem;
+  bottom: 0;
+  padding: 30px;
+}

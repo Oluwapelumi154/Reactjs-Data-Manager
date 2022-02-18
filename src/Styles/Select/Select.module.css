@@ -1,0 +1,34 @@
+.form-label {
+  display: block;
+}
+
+.form-select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgb(167, 155, 155);
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 0.1rem;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: #faf8f8;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.2rem !important;
+  font-size: 14px;
+}
+.form-select:focus {
+  border: 1px solid rgb(167, 155, 155);
+  outline: 0;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.form-select::placeholder {
+  font-size: 0.9rem;
+  font-weight: 450;
+  color: black;
+}
+.form-group {
+  margin-bottom: 10px;
+}

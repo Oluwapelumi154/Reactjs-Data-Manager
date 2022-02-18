@@ -1,0 +1,36 @@
+.navigationBar {
+  height: 65px;
+  width: 100vw;
+  /*background-color: #051422;*/
+  background-color: #103a64;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.nav-items {
+  list-style-type: none;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigationBar > * {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.nav-links {
+  margin: 10px 10px 0px 10px;
+  align-self: center;
+  text-decoration: none !important;
+}
+.isActive {
+  text-decoration: none;
+  color: royalblue;
+}
+.inActive {
+  color: #fff;
+  text-decoration: none;
+}
