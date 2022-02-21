@@ -33,7 +33,7 @@
 .tableData {
   text-align: center;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: lowercase;
   font-size: 1rem;
   font-size: 0.8rem;
 }

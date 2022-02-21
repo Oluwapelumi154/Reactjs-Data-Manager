@@ -21,7 +21,6 @@ const AuthSlice = createSlice({
       state.isSuccess = false;
     },
     AuthSuccess: (state, { payload }) => {
-      console.log(payload.message);
       state.isLoading = false;
       state.isAuthenticated = payload.data.token;
       state.user = payload.data.user;
